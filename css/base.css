@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	background-color: white;
+	background-color: #f9f1f1;
 }
 
 body p {
@@ -51,9 +51,9 @@ header nav li {
 header nav li a {
 	display: block;
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
-	padding: 20px 16px;
+	padding: 20px 40px;
 	text-decoration: none;
 }
 
