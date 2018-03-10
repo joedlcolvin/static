@@ -4,13 +4,19 @@ body {
 }
 
 body p {
-	color: black;
 	word-break: break-all;
+	padding: 0px 15px;
 }
 
 body h1 {
 	font-family:'Verdana'; 
 	color: purple;
+	padding: 0px 15px;
+}
+body h2 {
+	font-family:'Verdana'; 
+	color: purple;
+	padding: 0px 15px;
 }
 
 header nav {
@@ -82,7 +88,6 @@ background-color:#4CAF50;
 	flex-grow: 1;
 	flex-shrink: 1;
 }
-
 footer {
 	background: purple;
 	border-top: solid black 2px;
