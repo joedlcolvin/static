@@ -1,7 +1,7 @@
 /* Slideshow container */
 .slideshow-container {
 	width: 100%;
-	max-height: 300px;
+	height: 300px;
 	overflow: hidden;
 	position: relative;
 	margin: auto;
@@ -14,9 +14,11 @@
 
 .image {
 	display: block;
+	position: absolute;
 	margin-top: auto;
 	margin-bottom: auto;
-	height: 50%;
+	top: 50%;
+	bottom: 50%;
 }
 
 /* Next & previous buttons */
@@ -46,9 +48,9 @@
 }
 
 /* Caption text */
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
+#caption {
+	color: white;
+	font-size: 20px;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 8px;
@@ -58,7 +60,7 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-	color: #f2f2f2;
+	color: white;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
@@ -66,6 +68,12 @@
 }
 
 /* The dots/bullets/indicators */
+#dots-container {
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+}
 .dot {
 	cursor:pointer;
 	height: 15px;
@@ -101,4 +109,8 @@
 
 #youtube {
 	width: 100%;
+}
+#spotify {
+	height: calc(100% - 80px);
+	min-height: 300px;
 }

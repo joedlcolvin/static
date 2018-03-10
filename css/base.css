@@ -5,6 +5,7 @@ body {
 
 body p {
 	color: black;
+	word-break: break-all;
 }
 
 body h1 {
@@ -74,12 +75,12 @@ background-color:#4CAF50;
 #leftbox {
 	border: solid black 1px;
 	flex-grow: 2;
-	min-width: 700px;
+	flex-shrink: 2;
 }
 #rightbox {
 	border: solid black 1px;
 	flex-grow: 1;
-	min-width: 300px;
+	flex-shrink: 1;
 }
 
 footer {

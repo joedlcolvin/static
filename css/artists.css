@@ -8,7 +8,6 @@
 }
 
 .artists {
-	position: relative;
 	max-height: 500px;
 	max-width: 500px;
 	border: solid black 1px;
@@ -17,10 +16,17 @@
 	padding: 0px 20px;
 }
 
+.artistheading {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+.artistname {
+	
+}
+
 .artistpic {
 	height: 100px;
 	width: 100px;
-	position: absolute;
-	top: 10px;
-	right: 10px;
 }
