@@ -1,32 +1,42 @@
-#artistflex {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	align-content: center;
+#list-container {
+	position: relative;
 }
-
-.artists {
-	max-height: 500px;
-	max-width: 500px;
-	border: solid black 1px;
+#artist-list {
+	display: flex;
+	justify-content: center;
+}
+#artist-display-container {
+	width: 100%;
+	background:lightblue;
+	border: lightblue solid 1px;
+}
+#leftbutton {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 0;
+	background: black;
+	height: 20px;
+	width: 20px;
+}
+#rightbutton {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	right: 0;
+	background: black;
+	height: 20px;
+	width: 20px;
+}
+.artist {
 	flex-grow: 1;
-	margin: 20px;
-	padding: 0px 20px;
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
 }
-
-.artistheading {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
+.artist > p {
+	display: none;
 }
-
-.artistname {
-	
-}
-
-.artistpic {
-	height: 100px;
-	width: 100px;
+.artist-display {
+	display: none;
 }
